@@ -1,0 +1,167 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;900&display=swap');
+/* Global */
+.btn{
+    border-radius: 30px !important;
+}
+.btn:hover{
+    background-color: #F4CE6A !important;
+}
+/* Scrollbar */
+::-webkit-scrollbar{
+    background:#1b1a1a;
+    width: 12px;
+}
+/* Scrollbar track */
+::-webkit-scrollbar-track{
+    background: #1b1a1a;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+/* Thumb */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.8); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(255, 255, 255, 0.4); 
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-weight: 400;
+    overflow-x: hidden;
+    background-color: #1b1a1a;
+    line-height: 1.5;
+}
+*{
+    margin: 0;
+    padding:0;
+    outline: none!important;
+    font-family: 'Raleway',sans-serif;
+    scroll-behavior: smooth;
+}
+img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+ul{
+    list-style: none;
+}
+
+/*............. Navbar....................*/
+.navbar{
+    padding: 10px 0;
+    cursor: pointer;
+    background-color: #1b1a1a;
+}
+.navbar > .container{
+    padding: 10px 0;
+}
+.welcome-txt{
+    color: #ffffff;
+    font-size: 24px;
+}
+.navbar .nav-item .nav-link
+{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 5px 0;
+    position: relative;
+}
+.navbar .nav-item .nav-link::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 1px;
+    background-color: white;
+    transition: all 0.5s ease;
+    transform: scale(0);
+}
+.navbar .nav-item .nav-link.active::before,
+.navbar .nav-item .nav-link:hover::before
+{
+    transform: scale(1);
+}
+
+/*********Home Section*********/
+.home{
+    min-height: 100vh;
+    padding: 150px 0;
+    background-image: url(../images/home-sec-remove.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size:contain;
+    background-color: #1b1a1a;
+}
+.home-text h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+    margin: 0 0 20px;
+}
+.home-text h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 45px;
+    font-weight: 300;
+    color: white;
+    margin: 0 0 20px;
+}
+.home-text p{
+    font-size: 18px;
+    line-height: 28px;
+    color: #ffffff;
+    margin: 0;
+    font-weight: 300;
+}
+.home-img img{
+    border-radius: 30px;
+    max-width: 250px;
+    width: 100%;
+    transition: all 0.5s ;
+} 
+.home-img img:hover{
+    transform: scale(1.02);
+}
+/******* Home End *******/
+/**************My work Section**************/
+.my-work{
+    min-height: 100vh;
+    padding: 50px 0;
+    background-color: #1b1a1a;
+}
+.work-img img{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 250px;
+    width: 100%;
+}
+.section-1{
+    padding: 7px 50px;
+}
+/**************My work Section End**************/
+.web-sec{
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
+
+lottie-player{
+    margin: auto auto;
+}
+
+/* About Me */
+.about-me{
+    min-height: 100vh;
+    padding: 50px 0;
+    background-color: #1b1a1a;
+}
+
+
