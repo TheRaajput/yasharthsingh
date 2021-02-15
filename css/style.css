@@ -162,6 +162,15 @@ lottie-player{
     min-height: 100vh;
     padding: 50px 0;
     background-color: #1b1a1a;
+    background: url(../images/aboutmebg.jpg);
+    background-size: contain;
+    opacity: 0.95;
 }
 
+/* .........................................Contact me............................................. */
 
+.contact-me{
+    min-height: 100vh;
+    padding: 50px 0;
+    background-color: #1b1a1a;
+}

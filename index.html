@@ -26,19 +26,19 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <ul class="navbar-nav ml-auto">
                   <li class="nav-item">
-                    <a class="nav-link active" href="#">Home</a>
+                    <a class="nav-link" href="#myhome" data-scroll-nav="0">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#myWork" data-scroll-nav="0">My Work</a>
+                    <a class="nav-link" href="#myWork" data-scroll-nav="1">My Work</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#aboutme" data-scroll-nav="1">About Me</a>
+                    <a class="nav-link" href="#aboutme" data-scroll-nav="2">About Me</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="./download/myCV.doc" download>Resume</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#contact" data-scroll-nav="3">Contact</a>
                   </li>
               </ul>
             </div>
@@ -47,7 +47,7 @@
     <!-- Navbar end -->
 
     <!-- Home -->
-    <section class="home d-flex align-items-center">
+    <section class="home d-flex align-items-center" id="myhome" data-scroll-index="0">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-7 ">
@@ -64,7 +64,7 @@
 
 
     <!-- My Work Section-->
-    <section class="my-work" id="myWork" data-scroll-index="0">
+    <section class="my-work" id="myWork" data-scroll-index="1">
         <div class="container">
             <!-- Heading of Work -->
             <h4 style="font-family: Raleway, sans-serif;font-weight: 700;text-align: center;color: white;">My Work</h2>
@@ -247,10 +247,10 @@
 
 
     <!-- About Me section -->
-    <section class="about-me" id="aboutme" data-scroll-index="1">
-      <h3 style="font-family: 'Raleway',san-serif;text-align: center;color: #ffffff;">About me</h3>
+    <section class="about-me" id="aboutme" data-scroll-index="2">
+      <h2 style="font-family: 'Raleway',san-serif;text-align: center;color: #ffffff;">About me</h2>
       <div class="container" style="box-shadow: 3px 3px 10px black;">
-        <div class="jumbotron">
+        <div class="jumbotron" style="border-radius: 30px;">
           <h1 class="display-4">Hello, I'm Yasharth.</h1>
           <p class="lead"> 
             Proficient in C/C++, JAVA, PYTHON, JAVASCRIPT, and SQL.
@@ -266,9 +266,29 @@
           </p>
         </div>
       </div>
+      <div class="container">
+        <hr class="my-4" style="background-color: white;">
+      </div>
     </section>
 
+    <!-- .........................Contact me............................... -->
+    <section class="contact-me" data-scroll-index="3" id="contact">
+      <div class="container">
+        <h2 style="font-family: 'Raleway', sans-serif; text-align: center;color: #ffffff;padding-top: 50px;">Contact Me</h2>
+        <div>
+          <div class="address" style="color: #ffffff;">
+            <ul>
+              <li>Sh-8/4-U-11 Ramjanki Dham Colony, Varanasi (UP) 221003</li>
+              <li>Contact: +918840847623</li>
+              <li>Email: yasharth.cse@gmail.com</li>
+            </ul>
+          </div>
+          <div class="social">
 
+          </div>
+        </div>
+      </div>
+    </section>
 
 
     <script src="./js/jquery-1.10.2.min.js" type="text/javascript"></script>
